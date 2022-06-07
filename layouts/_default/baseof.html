@@ -48,7 +48,7 @@
           {{- block "subheader" . }}
             {{ partial "subheader.html" (dict "context" . "site" $.Site) }}
           {{ end }}
-          <div class="content slide-invert">
+          <div class="content">
             {{- block "content" . }}{{ end }}
           </div>
         </article>
